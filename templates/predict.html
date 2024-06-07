@@ -1,0 +1,106 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<form action="" method="post" style="text-align: center; font-size: 110%">
+    {{ form.hidden_tag() }}
+    <div>
+        {{ form.airline.label }}
+        {{ form.airline }}
+        {% if form.airline.errors %}
+            {% for error in form.airline.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.doj.label }}
+        {{ form.doj }}
+        {% if form.doj.errors %}
+            {% for error in form.doj.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.src.label }}
+        {{ form.src }}
+        {% if form.src.errors %}
+            {% for error in form.src.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.des.label }}
+        {{ form.des }}
+        {% if form.des.errors %}
+            {% for error in form.des.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.dep.label }}
+        {{ form.dep }}
+        {% if form.dep.errors %}
+            {% for error in form.dep.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.arr.label }}
+        {{ form.arr }}
+        {% if form.arr.errors %}
+            {% for error in form.arr.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.dur.label }}
+        {{ form.dur }}
+        {% if form.dur.errors %}
+            {% for error in form.dur.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.tos.label }}
+        {{ form.tos }}
+        {% if form.tos.errors %}
+            {% for error in form.tos.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.addinfo.label }}
+        {{ form.addinfo }}
+        {% if form.addinfo.errors %}
+            {% for error in form.addinfo.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>{{ form.sub() }}</div>
+    <br>
+    <div style="font-size: 110%; color: rgba(255, 123, 0, 0.877)">
+        {{ out}}
+    </div>
+    <br>
+    <div>
+        <a style="font-size: 110%" href="{{ url_for('home') }}">Home</a>
+    </div>
+</form>
+{% endblock content %}
