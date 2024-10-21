@@ -35,7 +35,7 @@ The model achieved a prediction accuracy of **93%**, which can be highly useful 
 
 ## Dataset
 
-The dataset used in this project is available from Kaggle and contains flight details like:
+The dataset used in this project is taken from Kaggle and contains flight details like:
 
 - **Airline**
 - **Source**
@@ -45,7 +45,7 @@ The dataset used in this project is available from Kaggle and contains flight de
 - **Duration**
 - **Total Stops**
 
-You can download the dataset from the [Kaggle Dataset](https://www.kaggle.com/datasets).
+You can download the dataset from the 'data' folder
 
 ## Model Development
 
