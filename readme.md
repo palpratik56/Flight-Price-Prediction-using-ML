@@ -8,8 +8,6 @@
 7. [Usage](#usage)
 8. [Results](#results)
 9. [Contributing](#contributing)
-10. [License](#license)
-11. [Contact](#contact)
 
 ## Project Overview
 
