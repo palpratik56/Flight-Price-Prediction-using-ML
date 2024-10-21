@@ -1,11 +1,3 @@
-Great! Here's a professional README file for your "Flight Price Prediction using ML" project. You can modify it as needed based on any additional details.
-
----
-
-# Flight Price Prediction using Machine Learning
-
-![Project Banner](https://example.com/banner-image) <!-- Optional: Link to a relevant banner image -->
-
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Features](#features)
